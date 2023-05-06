@@ -42,3 +42,32 @@ body {
     text-align: center;
     color: hsl(220, 15%, 55%);
 }
+
+/* responsive */
+@media (max-width: 375px) {
+    .card {
+        width: 314px;
+        height: 500px;
+        
+    }
+    
+    .codeImg {
+        width: 280px;
+        height: 280px;
+        border-radius: 10px;
+    }
+
+    .p1 {
+        margin: 6px;
+        width: 280px;
+        font-size: 24px;
+    }
+    
+    .p2 {
+        margin: 6px;
+        margin-bottom: 30px;
+        width: 280px;
+        font-size: 18px;
+    }
+    
+}
